@@ -1,0 +1,6 @@
+---
+deployment:
+tasks:
+- export DEPLOYPATH=/home/smkf7898/public_html/rwtest/
+- /bin/cp index.php $DEPLOYPATH
+# /bin/cp -R .* $DEPLOYPATH
